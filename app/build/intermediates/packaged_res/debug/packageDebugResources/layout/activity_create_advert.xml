@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Post Type -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post Type"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <RadioGroup
+            android:id="@+id/rg_post_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="14dp">
+
+            <RadioButton
+                android:id="@+id/rb_lost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lost"
+                android:checked="true"
+                android:textColor="#D32F2F" />
+
+            <RadioButton
+                android:id="@+id/rb_found"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Found"
+                android:layout_marginStart="24dp"
+                android:textColor="#388E3C" />
+        </RadioGroup>
+
+        <!-- Name -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Name *" android:textStyle="bold" android:textSize="13sp"
+            android:layout_marginBottom="2dp"/>
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Your full name"
+            android:background="@drawable/input_background"
+            android:padding="10dp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Phone -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Phone *" android:textStyle="bold" android:textSize="13sp"
+            android:layout_marginBottom="2dp"/>
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="Contact phone number"
+            android:background="@drawable/input_background"
+            android:padding="10dp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Description -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Description *" android:textStyle="bold" android:textSize="13sp"
+            android:layout_marginBottom="2dp"/>
+        <EditText
+            android:id="@+id/et_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:gravity="top"
+            android:hint="Describe the item"
+            android:background="@drawable/input_background"
+            android:padding="10dp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Date -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Date *" android:textStyle="bold" android:textSize="13sp"
+            android:layout_marginBottom="2dp"/>
+        <EditText
+            android:id="@+id/et_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="dd-MM-yyyy"
+            android:background="@drawable/input_background"
+            android:padding="10dp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Location -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Location *" android:textStyle="bold" android:textSize="13sp"
+            android:layout_marginBottom="2dp"/>
+        <EditText
+            android:id="@+id/et_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Where was the item lost/found?"
+            android:background="@drawable/input_background"
+            android:padding="10dp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Category -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Category" android:textStyle="bold" android:textSize="13sp"
+            android:layout_marginBottom="4dp"/>
+        <Spinner
+            android:id="@+id/spinner_category"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/input_background"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Image -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Image *" android:textStyle="bold" android:textSize="13sp"
+            android:layout_marginBottom="6dp"/>
+
+        <Button
+            android:id="@+id/btn_pick_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Image from Gallery"
+            android:backgroundTint="#E3F2FD"
+            android:textColor="#1565C0"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/tv_image_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No image selected"
+            android:textColor="#757575"
+            android:textSize="12sp"
+            android:layout_marginBottom="8dp" />
+
+        <ImageView
+            android:id="@+id/img_preview"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:background="#E0E0E0"
+            android:contentDescription="Image preview"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Save -->
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="SAVE"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:backgroundTint="#1565C0" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF6D00</color>
+    <color name="colorPrimary">#1565C0</color>
+    <color name="colorPrimaryDark">#003c8f</color>
+    <color name="color_found">#388E3C</color>
+    <color name="color_lost">#D32F2F</color>
+    <string name="app_name">Lost &amp; Found</string>
+    <string name="btn_create_advert">Create a New Advert</string>
+    <string name="btn_show_all_items">Show All Lost &amp; Found Items</string>
+    <string name="image_selected">✓ Image selected</string>
+    <string name="title_all_items">Lost &amp; Found Items</string>
+    <string name="title_create_advert">Create Advert</string>
+    <string name="title_item_detail">Item Detail</string>
+    <style name="Theme.LostAndFound" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>

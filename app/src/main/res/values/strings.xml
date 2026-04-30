@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lost &amp; Found</string>
+    <string name="btn_create_advert">Create a New Advert</string>
+    <string name="btn_show_all_items">Show All Lost &amp; Found Items</string>
+    <string name="title_create_advert">Create Advert</string>
+    <string name="title_all_items">Lost &amp; Found Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="image_selected">✓ Image selected</string>
+</resources>

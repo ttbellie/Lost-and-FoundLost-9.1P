@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="#F5F5F5">
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/ic_pin"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#1565C0"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect lost items with their owners"
+        android:textSize="13sp"
+        android:textColor="#757575"
+        android:gravity="center"
+        android:layout_marginBottom="48dp" />
+
+    <Button
+        android:id="@+id/btn_create_advert"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="@string/btn_create_advert"
+        android:textSize="15sp"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="#1565C0" />
+
+    <Button
+        android:id="@+id/btn_show_all_items"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="@string/btn_show_all_items"
+        android:textSize="15sp"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#1565C0" />
+
+</LinearLayout>

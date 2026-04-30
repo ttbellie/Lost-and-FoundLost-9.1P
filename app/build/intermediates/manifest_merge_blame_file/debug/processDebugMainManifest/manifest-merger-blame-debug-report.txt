@@ -1,0 +1,172 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.lostandfound"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="24"
+8-->INJECTED
+9        android:targetSdkVersion="34" />
+9-->INJECTED
+10
+11    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+11-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:4:5-76
+11-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:4:22-73
+12    <uses-permission
+12-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:5:5-7:38
+13        android:name="android.permission.READ_EXTERNAL_STORAGE"
+13-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:6:9-64
+14        android:maxSdkVersion="32" />
+14-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:7:9-35
+15
+16    <permission
+16-->[androidx.core:core:1.12.0] /Users/tien/.gradle/caches/9.3.1/transforms/c21dd50e8387bc5dde8e6288d2d0eac9/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.lostandfound.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.12.0] /Users/tien/.gradle/caches/9.3.1/transforms/c21dd50e8387bc5dde8e6288d2d0eac9/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.12.0] /Users/tien/.gradle/caches/9.3.1/transforms/c21dd50e8387bc5dde8e6288d2d0eac9/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.lostandfound.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.12.0] /Users/tien/.gradle/caches/9.3.1/transforms/c21dd50e8387bc5dde8e6288d2d0eac9/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.12.0] /Users/tien/.gradle/caches/9.3.1/transforms/c21dd50e8387bc5dde8e6288d2d0eac9/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:9:5-45:19
+23        android:allowBackup="true"
+23-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:10:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.12.0] /Users/tien/.gradle/caches/9.3.1/transforms/c21dd50e8387bc5dde8e6288d2d0eac9/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+26-->INJECTED
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:11:9-43
+28        android:label="@string/app_name"
+28-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:12:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:13:9-54
+30        android:supportsRtl="true"
+30-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:14:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.LostAndFound" >
+32-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:15:9-50
+33        <activity
+33-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:17:9-25:20
+34            android:name="com.example.lostandfound.MainActivity"
+34-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:18:13-41
+35            android:exported="true"
+35-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:19:13-36
+36            android:label="@string/app_name" >
+36-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:20:13-45
+37            <intent-filter>
+37-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:21:13-24:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:22:17-69
+38-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:22:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:23:17-77
+40-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:23:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:27:9-31:58
+44            android:name="com.example.lostandfound.CreateAdvertActivity"
+44-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:28:13-49
+45            android:exported="false"
+45-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:29:13-37
+46            android:label="@string/title_create_advert"
+46-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:30:13-56
+47            android:parentActivityName="com.example.lostandfound.MainActivity" />
+47-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:31:13-55
+48        <activity
+48-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:33:9-37:58
+49            android:name="com.example.lostandfound.AdvertListActivity"
+49-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:34:13-47
+50            android:exported="false"
+50-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:35:13-37
+51            android:label="@string/title_all_items"
+51-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:36:13-52
+52            android:parentActivityName="com.example.lostandfound.MainActivity" />
+52-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:37:13-55
+53        <activity
+53-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:39:9-43:64
+54            android:name="com.example.lostandfound.AdvertDetailActivity"
+54-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:40:13-49
+55            android:exported="false"
+55-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:41:13-37
+56            android:label="@string/title_item_detail"
+56-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:42:13-54
+57            android:parentActivityName="com.example.lostandfound.AdvertListActivity" />
+57-->/Users/tien/Downloads/LostAndFound 2/app/src/main/AndroidManifest.xml:43:13-61
+58
+59        <provider
+59-->[androidx.emoji2:emoji2:1.2.0] /Users/tien/.gradle/caches/9.3.1/transforms/49a4c8d56ae961a3b14b4f7e606d742d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.2.0] /Users/tien/.gradle/caches/9.3.1/transforms/49a4c8d56ae961a3b14b4f7e606d742d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+61            android:authorities="com.example.lostandfound.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.2.0] /Users/tien/.gradle/caches/9.3.1/transforms/49a4c8d56ae961a3b14b4f7e606d742d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.2.0] /Users/tien/.gradle/caches/9.3.1/transforms/49a4c8d56ae961a3b14b4f7e606d742d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.2.0] /Users/tien/.gradle/caches/9.3.1/transforms/49a4c8d56ae961a3b14b4f7e606d742d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.2.0] /Users/tien/.gradle/caches/9.3.1/transforms/49a4c8d56ae961a3b14b4f7e606d742d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.2.0] /Users/tien/.gradle/caches/9.3.1/transforms/49a4c8d56ae961a3b14b4f7e606d742d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/tien/.gradle/caches/9.3.1/transforms/e93c797498f673146346d7e6dfdbbdf5/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/tien/.gradle/caches/9.3.1/transforms/e93c797498f673146346d7e6dfdbbdf5/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/tien/.gradle/caches/9.3.1/transforms/e93c797498f673146346d7e6dfdbbdf5/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+69            <meta-data
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tien/.gradle/caches/9.3.1/transforms/22f06b46719a28df4bc004ed011d90fb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+70-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tien/.gradle/caches/9.3.1/transforms/22f06b46719a28df4bc004ed011d90fb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+71                android:value="androidx.startup" />
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tien/.gradle/caches/9.3.1/transforms/22f06b46719a28df4bc004ed011d90fb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+72        </provider>
+73
+74        <receiver
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tien/.gradle/caches/9.3.1/transforms/22f06b46719a28df4bc004ed011d90fb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+75            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tien/.gradle/caches/9.3.1/transforms/22f06b46719a28df4bc004ed011d90fb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+76            android:directBootAware="false"
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tien/.gradle/caches/9.3.1/transforms/22f06b46719a28df4bc004ed011d90fb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+77            android:enabled="true"
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tien/.gradle/caches/9.3.1/transforms/22f06b46719a28df4bc004ed011d90fb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+78            android:exported="true"
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tien/.gradle/caches/9.3.1/transforms/22f06b46719a28df4bc004ed011d90fb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+79            android:permission="android.permission.DUMP" >
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tien/.gradle/caches/9.3.1/transforms/22f06b46719a28df4bc004ed011d90fb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+80            <intent-filter>
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tien/.gradle/caches/9.3.1/transforms/22f06b46719a28df4bc004ed011d90fb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+81                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tien/.gradle/caches/9.3.1/transforms/22f06b46719a28df4bc004ed011d90fb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tien/.gradle/caches/9.3.1/transforms/22f06b46719a28df4bc004ed011d90fb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+82            </intent-filter>
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tien/.gradle/caches/9.3.1/transforms/22f06b46719a28df4bc004ed011d90fb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+84                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tien/.gradle/caches/9.3.1/transforms/22f06b46719a28df4bc004ed011d90fb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tien/.gradle/caches/9.3.1/transforms/22f06b46719a28df4bc004ed011d90fb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+85            </intent-filter>
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tien/.gradle/caches/9.3.1/transforms/22f06b46719a28df4bc004ed011d90fb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+87                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tien/.gradle/caches/9.3.1/transforms/22f06b46719a28df4bc004ed011d90fb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tien/.gradle/caches/9.3.1/transforms/22f06b46719a28df4bc004ed011d90fb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+88            </intent-filter>
+89            <intent-filter>
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tien/.gradle/caches/9.3.1/transforms/22f06b46719a28df4bc004ed011d90fb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+90                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tien/.gradle/caches/9.3.1/transforms/22f06b46719a28df4bc004ed011d90fb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tien/.gradle/caches/9.3.1/transforms/22f06b46719a28df4bc004ed011d90fb/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+91            </intent-filter>
+92        </receiver>
+93    </application>
+94
+95</manifest>

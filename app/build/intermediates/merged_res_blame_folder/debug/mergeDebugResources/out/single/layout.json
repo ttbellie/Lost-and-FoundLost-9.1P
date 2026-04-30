@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.example.lostandfound.app-mergeDebugResources-35:/layout/activity_main.xml",
+        "source": "com.example.lostandfound.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.lostandfound.app-mergeDebugResources-35:/layout/activity_advert_detail.xml",
+        "source": "com.example.lostandfound.app-main-38:/layout/activity_advert_detail.xml"
+    },
+    {
+        "merged": "com.example.lostandfound.app-mergeDebugResources-35:/layout/activity_advert_list.xml",
+        "source": "com.example.lostandfound.app-main-38:/layout/activity_advert_list.xml"
+    },
+    {
+        "merged": "com.example.lostandfound.app-mergeDebugResources-35:/layout/item_advert.xml",
+        "source": "com.example.lostandfound.app-main-38:/layout/item_advert.xml"
+    },
+    {
+        "merged": "com.example.lostandfound.app-mergeDebugResources-35:/layout/activity_create_advert.xml",
+        "source": "com.example.lostandfound.app-main-38:/layout/activity_create_advert.xml"
+    }
+]

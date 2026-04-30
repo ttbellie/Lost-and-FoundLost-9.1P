@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "com.example.lostandfound.app-debug-36:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.lostandfound.app-main-38:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.lostandfound.app-debug-36:/drawable_ic_pin.xml.flat",
+        "source": "com.example.lostandfound.app-main-38:/drawable/ic_pin.xml"
+    },
+    {
+        "merged": "com.example.lostandfound.app-debug-36:/layout_activity_create_advert.xml.flat",
+        "source": "com.example.lostandfound.app-main-38:/layout/activity_create_advert.xml"
+    },
+    {
+        "merged": "com.example.lostandfound.app-debug-36:/layout_activity_advert_detail.xml.flat",
+        "source": "com.example.lostandfound.app-main-38:/layout/activity_advert_detail.xml"
+    },
+    {
+        "merged": "com.example.lostandfound.app-debug-36:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.lostandfound.app-main-38:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.lostandfound.app-debug-36:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.lostandfound.app-main-38:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.lostandfound.app-debug-36:/drawable_chip_bg.xml.flat",
+        "source": "com.example.lostandfound.app-main-38:/drawable/chip_bg.xml"
+    },
+    {
+        "merged": "com.example.lostandfound.app-debug-36:/layout_activity_advert_list.xml.flat",
+        "source": "com.example.lostandfound.app-main-38:/layout/activity_advert_list.xml"
+    },
+    {
+        "merged": "com.example.lostandfound.app-debug-36:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.lostandfound.app-main-38:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.lostandfound.app-debug-36:/drawable_ic_image_placeholder.xml.flat",
+        "source": "com.example.lostandfound.app-main-38:/drawable/ic_image_placeholder.xml"
+    },
+    {
+        "merged": "com.example.lostandfound.app-debug-36:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.lostandfound.app-main-38:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.lostandfound.app-debug-36:/layout_activity_main.xml.flat",
+        "source": "com.example.lostandfound.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.lostandfound.app-debug-36:/drawable_input_background.xml.flat",
+        "source": "com.example.lostandfound.app-main-38:/drawable/input_background.xml"
+    },
+    {
+        "merged": "com.example.lostandfound.app-debug-36:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.lostandfound.app-main-38:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.lostandfound.app-debug-36:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.lostandfound.app-main-38:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.lostandfound.app-debug-36:/layout_item_advert.xml.flat",
+        "source": "com.example.lostandfound.app-main-38:/layout/item_advert.xml"
+    },
+    {
+        "merged": "com.example.lostandfound.app-debug-36:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.lostandfound.app-main-38:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.lostandfound.app-debug-36:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.lostandfound.app-main-38:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.lostandfound.app-debug-36:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.lostandfound.app-main-38:/mipmap-xhdpi/ic_launcher.png"
+    }
+]
