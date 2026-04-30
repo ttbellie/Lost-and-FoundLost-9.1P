@@ -1,3 +1,0 @@
-com.example.lostandfound.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme
