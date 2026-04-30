@@ -1,3 +1,17 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+
+# Android / Gradle generated files
+.gradle/
+build/
+*/build/
+
+# Local machine config
+local.properties
+
+# macOS
+.DS_Store
+
+# Generated reports
+*.html
