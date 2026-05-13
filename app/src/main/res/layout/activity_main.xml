@@ -47,7 +47,17 @@
         android:layout_height="52dp"
         android:text="@string/btn_show_all_items"
         android:textSize="15sp"
+        android:layout_marginBottom="14dp"
         android:backgroundTint="#FFFFFF"
         android:textColor="#1565C0" />
+
+    <Button
+        android:id="@+id/btn_show_on_map"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="@string/btn_show_on_map"
+        android:textSize="15sp"
+        android:backgroundTint="#388E3C"
+        android:textColor="#FFFFFF" />
 
 </LinearLayout>

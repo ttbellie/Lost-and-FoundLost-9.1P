@@ -5,6 +5,8 @@
     <uses-permission
         android:name="android.permission.READ_EXTERNAL_STORAGE"
         android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -13,6 +15,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LostAndFound">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${MAPS_API_KEY}" />
 
         <activity
             android:name=".MainActivity"
@@ -41,6 +47,12 @@
             android:exported="false"
             android:label="@string/title_item_detail"
             android:parentActivityName=".AdvertListActivity" />
+
+        <activity
+            android:name=".MapActivity"
+            android:exported="false"
+            android:label="@string/title_map"
+            android:parentActivityName=".MainActivity" />
 
     </application>
 

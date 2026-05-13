@@ -24,6 +24,10 @@
         "source": "com.example.lostandfound.app-main-38:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
+        "merged": "com.example.lostandfound.app-debug-36:/layout_activity_map.xml.flat",
+        "source": "com.example.lostandfound.app-main-38:/layout/activity_map.xml"
+    },
+    {
         "merged": "com.example.lostandfound.app-debug-36:/drawable_chip_bg.xml.flat",
         "source": "com.example.lostandfound.app-main-38:/drawable/chip_bg.xml"
     },

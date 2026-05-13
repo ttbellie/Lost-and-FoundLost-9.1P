@@ -10,7 +10,7 @@ class DatabaseHelper(context: Context) :
 
     companion object {
         private const val DATABASE_NAME = "lost_and_found.db"
-        private const val DATABASE_VERSION = 1
+        private const val DATABASE_VERSION = 2
 
         const val TABLE_ADVERTS = "adverts"
         const val COL_ID = "id"
@@ -23,6 +23,8 @@ class DatabaseHelper(context: Context) :
         const val COL_CATEGORY = "category"
         const val COL_IMAGE_PATH = "image_path"
         const val COL_TIMESTAMP = "timestamp"
+        const val COL_LATITUDE = "latitude"
+        const val COL_LONGITUDE = "longitude"
 
         private const val SQL_CREATE = """
             CREATE TABLE $TABLE_ADVERTS (
@@ -35,7 +37,9 @@ class DatabaseHelper(context: Context) :
                 $COL_LOCATION TEXT NOT NULL,
                 $COL_CATEGORY TEXT NOT NULL,
                 $COL_IMAGE_PATH TEXT,
-                $COL_TIMESTAMP INTEGER NOT NULL
+                $COL_TIMESTAMP INTEGER NOT NULL,
+                $COL_LATITUDE REAL NOT NULL DEFAULT 0.0,
+                $COL_LONGITUDE REAL NOT NULL DEFAULT 0.0
             )
         """
     }
@@ -45,8 +49,10 @@ class DatabaseHelper(context: Context) :
     }
 
     override fun onUpgrade(db: SQLiteDatabase, oldVersion: Int, newVersion: Int) {
-        db.execSQL("DROP TABLE IF EXISTS $TABLE_ADVERTS")
-        onCreate(db)
+        if (oldVersion < 2) {
+            db.execSQL("ALTER TABLE $TABLE_ADVERTS ADD COLUMN $COL_LATITUDE REAL NOT NULL DEFAULT 0.0")
+            db.execSQL("ALTER TABLE $TABLE_ADVERTS ADD COLUMN $COL_LONGITUDE REAL NOT NULL DEFAULT 0.0")
+        }
     }
 
     // ---------- INSERT ----------
@@ -62,6 +68,8 @@ class DatabaseHelper(context: Context) :
             put(COL_CATEGORY, item.category)
             put(COL_IMAGE_PATH, item.imagePath)
             put(COL_TIMESTAMP, item.timestamp)
+            put(COL_LATITUDE, item.latitude)
+            put(COL_LONGITUDE, item.longitude)
         }
         return db.insert(TABLE_ADVERTS, null, cv)
     }
@@ -130,7 +138,9 @@ class DatabaseHelper(context: Context) :
             location    = cursor.getString(cursor.getColumnIndexOrThrow(COL_LOCATION)),
             category    = cursor.getString(cursor.getColumnIndexOrThrow(COL_CATEGORY)),
             imagePath   = cursor.getString(cursor.getColumnIndexOrThrow(COL_IMAGE_PATH)),
-            timestamp   = cursor.getLong(cursor.getColumnIndexOrThrow(COL_TIMESTAMP))
+            timestamp   = cursor.getLong(cursor.getColumnIndexOrThrow(COL_TIMESTAMP)),
+            latitude    = cursor.getDouble(cursor.getColumnIndexOrThrow(COL_LATITUDE)),
+            longitude   = cursor.getDouble(cursor.getColumnIndexOrThrow(COL_LONGITUDE))
         )
     }
 }

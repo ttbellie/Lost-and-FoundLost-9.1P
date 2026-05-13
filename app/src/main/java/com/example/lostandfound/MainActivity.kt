@@ -21,5 +21,9 @@ class MainActivity : AppCompatActivity() {
         binding.btnShowAllItems.setOnClickListener {
             startActivity(Intent(this, AdvertListActivity::class.java))
         }
+
+        binding.btnShowOnMap.setOnClickListener {
+            startActivity(Intent(this, MapActivity::class.java))
+        }
     }
 }

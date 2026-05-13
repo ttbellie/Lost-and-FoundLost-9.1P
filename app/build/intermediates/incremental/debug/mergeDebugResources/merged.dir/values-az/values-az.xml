@@ -46,6 +46,24 @@
     <string name="character_counter_content_description">%1$d/%2$d simvol daxil edilib</string>
     <string name="character_counter_overflowed_content_description">Simvol limiti %1$d/%2$d dəyərini keçdi</string>
     <string name="clear_text_end_icon_content_description">Mətni silin</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Aktiv edin</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s Google Play xidmətlərini aktiv edənə kimi işləməyəcək.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play xidmətlərini aktiv edin</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Quraşdırın</string>
+    <string name="common_google_play_services_install_text">%1$s cihazınızda mövcud olmayan Google Play xidmətləri olmadan çalışmayacaq.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play xidmətlərini əldə edin</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play xidmətlərinin əlçatanlığı</string>
+    <string name="common_google_play_services_notification_ticker">Google Play xidmətləri xətası</string>
+    <string name="common_google_play_services_unknown_issue">%1$s tətbiqi ilə Google Play xidmətləri arasında problem var. Daha sonra yenidən cəhd edin.</string>
+    <string name="common_google_play_services_unsupported_text">Cihazınız tərəfindən dəstəklənməyən Google Play xidmətləri olmadan %1$s tətbiqi işləməyəcək.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Güncəlləyin</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s Google Play xidmətləri yeniləmə halda çalışmaz.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google Play xidmətlərini güncəlləşdirin</string>
+    <string name="common_google_play_services_updating_text">%1$s hal-hazırda güncəllənən Google Play xidmətləri olmadan çalışmayacaq.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play xidmətlərinin yeni versiyası lazımdır. Qısa müddətə özünü yeniləyəcək.</string>
+    <string name="common_open_on_phone">Telefonda açın</string>
+    <string name="common_signin_button_text">Daxil olun</string>
+    <string name="common_signin_button_text_long">Google ilə daxil olun</string>
     <string name="error_icon_content_description">Xəta</string>
     <string name="exposed_dropdown_menu_content_description">Açılan menyunu göstərin</string>
     <string name="icon_content_description">Dialoq ikonası</string>
@@ -106,6 +124,14 @@
     <string name="mtrl_timepicker_cancel">Ləğv edin</string>
     <string name="mtrl_timepicker_confirm">OK</string>
     <string name="password_toggle_content_description">Parolu göstərin</string>
+    <string name="places_autocomplete_clear_button">Axtarışı silin</string>
+    <string name="places_autocomplete_label">Yer seçin</string>
+    <string name="places_autocomplete_no_results_for_query">%1$s üçün nəticə yoxdur</string>
+    <string name="places_autocomplete_search_hint">Məkan axtarın</string>
+    <string name="places_cancel">Ləğv edin</string>
+    <string name="places_powered_by_google">Google tərəfindən dəstəklənir</string>
+    <string name="places_search_error">Axtarış nəticələri yüklənmir.</string>
+    <string name="places_try_again">Yenə cəhd edin</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Axtarın"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

@@ -16,6 +16,10 @@
         "source": "com.example.lostandfound.app-main-38:/layout/item_advert.xml"
     },
     {
+        "merged": "com.example.lostandfound.app-mergeDebugResources-35:/layout/activity_map.xml",
+        "source": "com.example.lostandfound.app-main-38:/layout/activity_map.xml"
+    },
+    {
         "merged": "com.example.lostandfound.app-mergeDebugResources-35:/layout/activity_create_advert.xml",
         "source": "com.example.lostandfound.app-main-38:/layout/activity_create_advert.xml"
     }

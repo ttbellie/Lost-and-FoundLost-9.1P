@@ -25,11 +25,15 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final Button btnShowAllItems;
 
+  @NonNull
+  public final Button btnShowOnMap;
+
   private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull Button btnCreateAdvert,
-      @NonNull Button btnShowAllItems) {
+      @NonNull Button btnShowAllItems, @NonNull Button btnShowOnMap) {
     this.rootView = rootView;
     this.btnCreateAdvert = btnCreateAdvert;
     this.btnShowAllItems = btnShowAllItems;
+    this.btnShowOnMap = btnShowOnMap;
   }
 
   @Override
@@ -71,7 +75,14 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((LinearLayout) rootView, btnCreateAdvert, btnShowAllItems);
+      id = R.id.btn_show_on_map;
+      Button btnShowOnMap = ViewBindings.findChildViewById(rootView, id);
+      if (btnShowOnMap == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((LinearLayout) rootView, btnCreateAdvert, btnShowAllItems,
+          btnShowOnMap);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,8 +1,0 @@
-com.example.lostandfound.app-pngs-0 /Users/tien/Downloads/LostAndFound 2/app/build/generated/res/pngs/debug
-com.example.lostandfound.app-resValues-1 /Users/tien/Downloads/LostAndFound 2/app/build/generated/res/resValues/debug
-com.example.lostandfound.app-updated_navigation_xml-2 /Users/tien/Downloads/LostAndFound 2/app/build/generated/updated_navigation_xml/debug
-com.example.lostandfound.app-packageDebugResources-3 /Users/tien/Downloads/LostAndFound 2/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.example.lostandfound.app-packageDebugResources-4 /Users/tien/Downloads/LostAndFound 2/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.example.lostandfound.app-debug-5 /Users/tien/Downloads/LostAndFound 2/app/build/intermediates/merged_res/debug/mergeDebugResources
-com.example.lostandfound.app-debug-6 /Users/tien/Downloads/LostAndFound 2/app/src/debug/res
-com.example.lostandfound.app-main-7 /Users/tien/Downloads/LostAndFound 2/app/src/main/res

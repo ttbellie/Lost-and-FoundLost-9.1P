@@ -26,6 +26,9 @@ public final class ActivityCreateAdvertBinding implements ViewBinding {
   private final ScrollView rootView;
 
   @NonNull
+  public final Button btnGetCurrentLocation;
+
+  @NonNull
   public final Button btnPickImage;
 
   @NonNull
@@ -64,13 +67,14 @@ public final class ActivityCreateAdvertBinding implements ViewBinding {
   @NonNull
   public final TextView tvImageStatus;
 
-  private ActivityCreateAdvertBinding(@NonNull ScrollView rootView, @NonNull Button btnPickImage,
-      @NonNull Button btnSave, @NonNull EditText etDate, @NonNull EditText etDescription,
-      @NonNull EditText etLocation, @NonNull EditText etName, @NonNull EditText etPhone,
-      @NonNull ImageView imgPreview, @NonNull RadioButton rbFound, @NonNull RadioButton rbLost,
-      @NonNull RadioGroup rgPostType, @NonNull Spinner spinnerCategory,
-      @NonNull TextView tvImageStatus) {
+  private ActivityCreateAdvertBinding(@NonNull ScrollView rootView,
+      @NonNull Button btnGetCurrentLocation, @NonNull Button btnPickImage, @NonNull Button btnSave,
+      @NonNull EditText etDate, @NonNull EditText etDescription, @NonNull EditText etLocation,
+      @NonNull EditText etName, @NonNull EditText etPhone, @NonNull ImageView imgPreview,
+      @NonNull RadioButton rbFound, @NonNull RadioButton rbLost, @NonNull RadioGroup rgPostType,
+      @NonNull Spinner spinnerCategory, @NonNull TextView tvImageStatus) {
     this.rootView = rootView;
+    this.btnGetCurrentLocation = btnGetCurrentLocation;
     this.btnPickImage = btnPickImage;
     this.btnSave = btnSave;
     this.etDate = etDate;
@@ -113,6 +117,12 @@ public final class ActivityCreateAdvertBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btn_get_current_location;
+      Button btnGetCurrentLocation = ViewBindings.findChildViewById(rootView, id);
+      if (btnGetCurrentLocation == null) {
+        break missingId;
+      }
+
       id = R.id.btn_pick_image;
       Button btnPickImage = ViewBindings.findChildViewById(rootView, id);
       if (btnPickImage == null) {
@@ -191,9 +201,9 @@ public final class ActivityCreateAdvertBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityCreateAdvertBinding((ScrollView) rootView, btnPickImage, btnSave, etDate,
-          etDescription, etLocation, etName, etPhone, imgPreview, rbFound, rbLost, rgPostType,
-          spinnerCategory, tvImageStatus);
+      return new ActivityCreateAdvertBinding((ScrollView) rootView, btnGetCurrentLocation,
+          btnPickImage, btnSave, etDate, etDescription, etLocation, etName, etPhone, imgPreview,
+          rbFound, rbLost, rgPostType, spinnerCategory, tvImageStatus);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
